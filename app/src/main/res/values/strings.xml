@@ -7,7 +7,7 @@
     <string name="checkbox_text">Item Text</string>
     <string name="title_activity_to_do">ToDoActivity</string>
     <string name="hello_world">Now Layout Test</string>
-
+    <string name="action_search">검색</string>
     <!-- Facebook App Key -->
     <string name="facebook_app_id">1104296509663491</string>
 </resources>
