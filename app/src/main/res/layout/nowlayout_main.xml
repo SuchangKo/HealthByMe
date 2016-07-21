@@ -1,0 +1,162 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+    <kr.kodev.healthbyme.NowLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e3e3e3"
+        android:orientation="vertical" >
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp" />
+        <!-- My Profile Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            style="@style/nowCardStyle"
+            android:gravity="top"
+            >
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:src="@android:drawable/ic_media_ff"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+                <TextView
+                    android:id="@+id/txtView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Suchang Ko"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="30dp"
+                    tools:context=".MainActivity" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/txtView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="오늘 평균 칼로리 : 600Kcal"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginLeft="30dp"
+                tools:context=".MainActivity" />
+            <TextView
+                android:id="@+id/txtView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="오늘 먹은 칼로리 : 500Kcal"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginLeft="30dp"
+                tools:context=".MainActivity" />
+        </LinearLayout>
+        <!-- My Profile Card END-->
+
+        <!-- Sample Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            style="@style/nowCardStyle"
+            android:gravity="top"
+            >
+
+            <TextView
+
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="07.21 14:15"
+                android:textSize="12dp"
+                android:layout_marginLeft="30dp"
+                tools:context=".MainActivity" />
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+
+                >
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Zinger Burger (300Kcal)"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+
+                    android:gravity="left"
+                    tools:context=".MainActivity" />
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="배가....부르다.. 쿰척쿰척"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                tools:context=".MainActivity" />
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/txtView2"
+            style="@style/nowCardStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world"
+            tools:context=".MainActivity" />
+
+        <TextView
+            android:id="@+id/txtView3"
+            style="@style/nowCardStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world"
+            tools:context=".MainActivity" />
+
+        <TextView
+            android:id="@+id/txtView4"
+            style="@style/nowCardStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world"
+            tools:context=".MainActivity" />
+
+        <TextView
+            android:id="@+id/txtView5"
+            style="@style/nowCardStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world"
+            tools:context=".MainActivity" />
+    </kr.kodev.healthbyme.NowLayout>
+
+</ScrollView>

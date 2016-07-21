@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HealthByMe</string>
+    <string name="add_textbox_hint">Add a ToDo item</string>
+    <string name="add_button_text">Add</string>
+    <string name="service_title">Mobile Apps </string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="checkbox_text">Item Text</string>
+    <string name="title_activity_to_do">ToDoActivity</string>
+    <string name="hello_world">Now Layout Test</string>
+
+    <!-- Facebook App Key -->
+    <string name="facebook_app_id">1104296509663491</string>
+</resources>
