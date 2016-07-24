@@ -55,6 +55,8 @@ public class RegistrationIntentService extends IntentService {
         // 이때 토큰을 함께 넘겨주어서 UI에 토큰 정보를 활용할 수 있도록 했다.
         Intent registrationComplete = new Intent(QuickstartPreferences.REGISTRATION_COMPLETE);
         registrationComplete.putExtra("token", token);
+        registrationComplete.putExtra("object", intent.getStringExtra("object"));
+
         LocalBroadcastManager.getInstance(this).sendBroadcast(registrationComplete);
     }
 }

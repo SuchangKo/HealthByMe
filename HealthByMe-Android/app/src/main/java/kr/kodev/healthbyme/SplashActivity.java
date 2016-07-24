@@ -5,6 +5,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.os.Handler;
@@ -32,6 +33,10 @@ import com.google.android.gms.common.GooglePlayServicesUtil;
 
 import org.json.JSONObject;
 
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+
 public class SplashActivity extends AppCompatActivity {
     CallbackManager callbackManager;
     private static final int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
@@ -41,10 +46,11 @@ public class SplashActivity extends AppCompatActivity {
     /**
      * Instance ID를 이용하여 디바이스 토큰을 가져오는 RegistrationIntentService를 실행한다.
      */
-    public void getInstanceIdToken() {
+    public void getInstanceIdToken(JSONObject object) {
         if (checkPlayServices()) {
             // Start IntentService to register this application with GCM.
             Intent intent = new Intent(this, RegistrationIntentService.class);
+            intent.putExtra("object",object.toString());
             startService(intent);
         }
     }
@@ -74,7 +80,16 @@ public class SplashActivity extends AppCompatActivity {
                     //mRegistrationButton.setText(getString(R.string.registering_message_complete));
                     //mRegistrationButton.setEnabled(false);
                     String token = intent.getStringExtra("token");
-                    Log.d("LOG",token);
+                    String object = intent.getStringExtra("object");
+                    try{
+                        JSONObject jsonObject = new JSONObject(object);
+
+                        JoinUser(jsonObject.getString("id"),jsonObject.getString("name"),jsonObject.getString("name"),token);
+                        Log.d("LOG",token);
+                    }catch (Exception e){
+
+                    }
+
                     //mInformationTextView.setText(token);
                 }
 
@@ -142,17 +157,6 @@ public class SplashActivity extends AppCompatActivity {
             }
         };
 
-        button = (Button)findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
-            /**
-             * 버튼을 클릭하면 토큰을 가져오는 getInstanceIdToken() 메소드를 실행한다.
-             * @param view
-             */
-            @Override
-            public void onClick(View view) {
-                getInstanceIdToken();
-            }
-        });
 
 
         updateWithToken(AccessToken.getCurrentAccessToken());
@@ -178,8 +182,10 @@ public class SplashActivity extends AppCompatActivity {
                                     GraphResponse response) {
                                 Log.d("FBLog",object.toString());
                                 Log.d("FBLog",response.toString());
-                                startActivity(new Intent(SplashActivity.this, MainActivity.class));
-                                finish();
+
+                                getInstanceIdToken(object); //get GCM
+
+                                //
                                 /*
                                 try{
 
@@ -251,5 +257,29 @@ public class SplashActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         callbackManager.onActivityResult(requestCode, resultCode, data);
+    }
+
+    public void JoinUser(String fb_id,String name,String nickname,String gcm){
+        ListService.api().users_post(fb_id,name,nickname,gcm).enqueue(new Callback<UserItem>() {
+            @Override
+            public void onResponse(Call<UserItem> call, Response<UserItem> response) {
+                if (response != null && response.isSuccess() && response.body() != null)
+                {
+                    UserItem item = response.body();
+                    SharedPreferences pref = getSharedPreferences("pref", MODE_PRIVATE);
+                    SharedPreferences.Editor editor = pref.edit();
+                    editor.putString("user_id",""+item.user_id);
+                    editor.commit();
+                    Log.d("LOG",""+item.user_id);
+                    startActivity(new Intent(SplashActivity.this, MainActivity.class));
+                    finish();
+                }
+            }
+
+            @Override
+            public void onFailure(Call<UserItem> call, Throwable t) {
+                Toast.makeText(SplashActivity.this,"Login Error",Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }
