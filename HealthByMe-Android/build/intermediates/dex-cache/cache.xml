@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-7.5.0_73d826a1c4dec6b5e82b7dd81e8d7ead1a551b58.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-7.5.0_423d611400f10df0be32f1d2e24818e7b84bea29.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.android.support-multidex-1.0.1_3e7845ed4c7f6686752cfda508a169b86dfba335.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-7.5.0_75f39d1e2111f0a99acdacc3a6a8667515560eb9.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/de.hdodenhof-circleimageview-2.1.0_beecc31572d310d927e76123db4ee78d07a3bbcd.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-7.5.0_abe11b2d50d8933ad9d999d0bc778fd4f8bc977c.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.android.support-mediarouter-v7-22.0.0_6e28a830832875a22ae4b3d04d90514f0cd29a8a.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="4157816e81f0820983957687e9a6f4c1cea0f1e5">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.1.0_878d854364a8b12f6b47f812369101d00b836d49.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/Documents/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.0/support-annotations-24.1.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8a23146e1a8c7cb4758e3d3f62449213f1e51f67">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/support-annotations-24.1.0_3b5bb6d3024fe23913622128d6bab3005e432ea9.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.android.support/customtabs/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.android.support-customtabs-23.4.0_addd2d7a6b65a9114ddb406c20e4b6b84002c2c4.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/.gradle/caches/modules-2/files-2.1/com.microsoft.azure/azure-notifications-handler/1.0.1/c322af100020e6db539f2aa367698d4b88fc453f/azure-notifications-handler-1.0.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c322af100020e6db539f2aa367698d4b88fc453f">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/azure-notifications-handler-1.0.1_a5867a838db77bd5f2463ee804b2aeb683368f41.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="e096a5d8343cc9c5a9f6eded36bd0f4c82f8c83e">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.1.0_6459d32112447a82eef2f3edab3681a75bfd0143.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/guava-18.0_ad15a7315e4da170a2c10b5e412a72734d280a39.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-7.5.0_ee49c7fe49ba9ffc6390ce36ad8aa00cad91a38f.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-7.5.0_73afe86c305d7231d539d9681c9d2b6ed45fa4b1.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-7.5.0_28f790120165fbdc67ff0aa5f78b350d39bd55b0.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-7.5.0_c8ed4e5bcbd3d24ac276957437843931f4f5fea2.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0_c8b57ce9ecb1d2032128c76e21074712e954ec87.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-7.5.0_66b22501ebab06b1ff6be6db997a3fcdedfc4b80.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="a65df94cca6af4dfd405add04c88ae5fb56f991b">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/instant-run_6e45dcaf9f3bd1d6ed021dc7b00a26560746d311.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.android.support/design/24.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8620c018c108eed501bbdb85324b79136373ea44">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.1.0_cadbbd190fefd8804c3e6c9cd5813d75ae1832e5.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-7.5.0_09ec1b5e4cd5fc52cc120ad7095f72742935e5e9.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ba8e8860f7e033c3a503b682337a4bafdf56e6ee">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.1.0_f0b80cde75054536b1d8038c7bf209e42553a285.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-7.5.0_63e32faf424a82c4c619092b3168ffaf5c789690.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-7.5.0_d060eedf4bc156084ed2b5ed5ffaf2441289fe30.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="9340c4f95a4e3916c9ad70296e24576743743712">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.1.0_e75d389b538bdac655f90e42ae9c8edb65547c1f.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.4.0_57f51b38d5721dd72a129e43b18d75d3c31be389.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.0/jars/libs/internal_impl-24.1.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8c7087216946c546f85a1242a2794c0f271e092c">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/internal_impl-24.1.0_3abe18f161f2716377f7356bf7e85109a326e173.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appstate-7.5.0_1c91b04873a194d5cbe7adac6c3007bccc486b01.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-7.5.0_e7ad5a1ab2e12dc1723d462520914f96dc05be86.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-7.5.0_27f9c051bab2d09248cc37b9271998e4c35080d6.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-7.5.0_859f2d348aca276bdfedec627574a36f8c94e835.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-7.5.0_f9d4fc18e96a6216fd792f7711da7955b0475302.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8c854b30eca6c442fe842e66cd3b58c5dd08996f">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.1.0_15f1d20fb271982208ff679bab547d845108eecf.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-7.5.0_5dd217dbf130d56c33f04f4427c1deb3ee6cfd74.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="0588a0503d989cc923a4537f71767f978007fcd1">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_fb20f86f449a024a6462ac9341e46d560ffa509b.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/okio-1.6.0_cc4eddd4f611f5b9c3f6c0de2a3d9a899531b43a.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/gson-2.3_9ab06704af4b589979d9aecfa3c049c00eb70cc4.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0_7d8ba73ec7926649f061ec71e7cd00a5a48e4311.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_57b6ba460b9553d724867897e7bb8a51cf316e6c.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-7.5.0_ab96a5457c8e8c7e26e74cb1ec7574455b59ce68.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-7.5.0_059b08abc4d7def1efd1b56019bbf484eb60d374.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="7cb8f70e66bdc25ee66ab8351a4e7214b6517aa8">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-android-sdk-4.14.0_aee1f2f2b97dbc0804c978791564cd53c66d5cb0.jar" />
+    </item>
+    <item
+        jar="/Users/SuchangKo/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/Users/SuchangKo/AndroidProject/HealthByMe/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0_ffe409fac9b6f55d16820e6317d0b0f38fa749e4.jar" />
+    </item>
+
+</items>

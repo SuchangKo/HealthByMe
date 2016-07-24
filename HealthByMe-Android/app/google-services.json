@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "226465590104",
+    "project_id": "firebase-healthbyme"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226465590104:android:2d2effaae2b0c178",
+        "android_client_info": {
+          "package_name": "kr.kodev.healthbyme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuX_QY3GEHVCsaKPyXuofUbHx9u7zASUo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
