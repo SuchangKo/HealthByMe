@@ -53,19 +53,21 @@
 
             </LinearLayout>
             <TextView
-                android:id="@+id/txtView6"
+                android:id="@+id/tv_profile_kcal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="오늘 평균 칼로리 : 600Kcal"
+                android:text="오늘 먹은 칼로리 : 600Kcal"
+
 
                 android:textSize="17dp"
                 android:layout_marginLeft="30dp"
                 tools:context=".MainActivity" />
             <TextView
-                android:id="@+id/txtView8"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="오늘 먹은 칼로리 : 500Kcal"
+                android:text="성인 권장 칼로리 : 2300Kcal"
+
 
                 android:textSize="17dp"
                 android:layout_marginLeft="30dp"
@@ -77,38 +79,10 @@
 
         <!-- Sample Card -->
 
-
-        <TextView
-            android:id="@+id/txtView2"
-            style="@style/nowCardStyle"
+        <ListView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/hello_world"
-            tools:context=".MainActivity" />
-
-        <TextView
-            android:id="@+id/txtView3"
-            style="@style/nowCardStyle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/hello_world"
-            tools:context=".MainActivity" />
-
-        <TextView
-            android:id="@+id/txtView4"
-            style="@style/nowCardStyle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/hello_world"
-            tools:context=".MainActivity" />
-
-        <TextView
-            android:id="@+id/txtView5"
-            style="@style/nowCardStyle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/hello_world"
-            tools:context=".MainActivity" />
+            android:id="@+id/listview"/>
     </kr.kodev.healthbyme.NowLayout>
 
 </ScrollView>

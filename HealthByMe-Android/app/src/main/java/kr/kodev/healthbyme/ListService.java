@@ -1,5 +1,7 @@
 package kr.kodev.healthbyme;
 
+import java.util.List;
+
 import retrofit2.Call;
 import retrofit2.http.DELETE;
 import retrofit2.http.Field;
@@ -35,7 +37,7 @@ public final class ListService extends BaseService {
         Call<UserItem> users_delete(@Field("user_id") String user_id);
 
         @GET("/foods")
-        Call<FoodItem> foods_get(@Query("user_id") String user_id);
+        Call<List<FoodItem>> foods_get(@Query("user_id") String user_id);
 
         @FormUrlEncoded
         @POST("/foods")
